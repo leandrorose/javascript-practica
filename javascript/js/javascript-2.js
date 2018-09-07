@@ -18,3 +18,12 @@ $(document).ready(function(){
         $("div").animate({left: '250px'});
     });
 });
+(function () {
+    alert('ME EJECUTO DE INMEDIATO');
+  }());
+
+  window.onload = function() {
+
+    alert( "ME EJECUTO AL CARGAR EL BROWSER" );
+ 
+};
